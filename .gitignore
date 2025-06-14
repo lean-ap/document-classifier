@@ -1,0 +1,23 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pkl
+
+# Virtual env (if any)
+.venv/
+
+# Poetry lock (optional if you're sharing pyproject.toml)
+poetry.lock
+
+# VSCode or PyCharm
+.vscode/
+.idea/
+
+# PDF downloads and temporary files
+data/
+*.pdf
+temp_*.pdf
+*.log
+
+# Jupyter checkpoints (if any)
+.ipynb_checkpoints/

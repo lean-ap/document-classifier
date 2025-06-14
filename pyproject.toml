@@ -1,0 +1,24 @@
+[project]
+name = "document-classifier"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "AyushP",email = "pranshu.ayush.fl@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "flask (>=3.1.1,<4.0.0)",
+    "pymupdf (>=1.26.1,<2.0.0)",
+    "scikit-learn (>=1.7.0,<2.0.0)",
+    "datasets (>=3.6.0,<4.0.0)",
+    "nltk (>=3.9.1,<4.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "document_classifier", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
