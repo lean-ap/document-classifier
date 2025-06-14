@@ -16,6 +16,7 @@ A Flask-based document classification application that uses a machine learning p
 ---
 
 ## Project Structure
+```
 .
 ├── pyproject.toml # Poetry project config
 ├── poetry.lock # Poetry lock file
@@ -30,6 +31,7 @@ A Flask-based document classification application that uses a machine learning p
 │ └── model.pkl # Trained ML model (generated)
 └── tests
 └── test_extractor.py # Unit tests
+```
 
 ## Prerequisites
 
@@ -49,7 +51,7 @@ A Flask-based document classification application that uses a machine learning p
 2. **Install dependencies**
   ```bash
    poetry install
-
+   
 3. **Activate the virtual environment**
   ```bash
    poetry shell
